@@ -20,10 +20,12 @@ Before you begin, ensure you have the following:
 
    
 2.Install project dependencies:
+
  ```bash
   npm install
 
 3.Create a .env file in the root directory of your project with the following variables:
+
  ```bash
   DATABASE_URL=your-mongodb-uri
   GOOGLE_CLIENT_ID=your-google-client-id
