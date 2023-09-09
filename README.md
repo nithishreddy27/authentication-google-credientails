@@ -20,15 +20,19 @@ Before you begin, ensure you have the following:
 
    
 2.Install project dependencies:
+ ```bash
   npm install
 
 3.Create a .env file in the root directory of your project with the following variables:
+ ```bash
   DATABASE_URL=your-mongodb-uri
   GOOGLE_CLIENT_ID=your-google-client-id
   GOOGLE_CLIENT_SECRET=your-google-client-secret
+
 Replace your-mongodb-uri, your-google-client-id, and your-google-client-secret with your MongoDB URI and Google OAuth credentials obtained from the Medium post mentioned above.
 
 4.Start the development server:
+ ```bash
   npm run dev
 
 Your Next.js application is now running. Visit http://localhost:3000 in your browser to access it.
